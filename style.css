@@ -30,6 +30,14 @@ p{
     font-family:Poppins, sans-serif;
 
 }
+.maindiv
+{
+    padding-top: 240px;
+}
+.maindiv2
+{
+    padding-top: 200px;
+}
 
 .div2 {
 
@@ -134,4 +142,8 @@ input[type=text]{
   {
 
   border-radius: 30px;
+}
+.colg
+{
+    border: 3px red !important;
 }

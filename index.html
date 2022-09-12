@@ -13,17 +13,19 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/d3bf50cd18.js" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-md navbar-light bg-light  fixed-top ">
-        <div class="container">
-            <a href="#" class="navbar-brand ">Abdul Hanan</a>
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsenavbar">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand " style="font-family: monospace;">Abdul Hanan</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon text-dark"> </span>
             </button>
-            <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
 
                 <ul class="navbar-nav ms-auto">
 
@@ -53,12 +55,13 @@
 
     </nav>
 
+
     <!--  main div -->
 
     <div class="container-fluid profile">
         <div class="row justify-content-center">
-            
-            <div class="col-md-5 col-lg-5 col-sm-12 align-self-center ">
+
+            <div class="col-md-5 col-lg-5 col-sm-12 maindiv ">
                 <p class="text-danger font-monospace">Get every single solution</p>
                 <h1>I'm Abdul Hanan Front-End Developer</h1>
                 <p>I am an energetic, ambitious person who has developed a mature and responsible approach to any task
@@ -78,7 +81,7 @@
 
 
     <!--  my services -->
-    <div class="container-fluid  div1">
+    <div class="container-fluid  div1 m-auto">
         <div class="row justify-content-center ">
             <div class="col">
                 <h1 class="text-center my-4">My Offered Services</h1>
@@ -86,18 +89,18 @@
             </div>
         </div>
         <div class="row justify-content-center m-3 ">
-            <div class="col-md-3 col-lg-3 col-sm-7 col-7 gy-2">
-                <div class="card" style="width: 20rem;">
+            <div class="col-md-2 col-lg-4 col-sm-8  col-12  ">
+                 <div class="card" style="width: 100%;">
                     <img src="front end.jpg" class="card-img-top" height="250px" width="270px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Front-End Development</h5>
                         <p class="card-text">Contact with me to make your front-end website</p>
                         <a href="#" class="btn btn-primary">Contact</a>
                     </div>
-                </div>
+                </div> 
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-7  col-7 gy-2">
-                <div class="card" style="width: 20rem;">
+            <div class="col-md-4 col-lg-4 col-sm-8   col-12  ">
+                <div class="card" style="width: 100%;">
                     <img src="it.jpg" class="card-img-top" height="250px" width="270px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">IT Solution</h5>
@@ -107,8 +110,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-7 col-7 gy-2">
-                <div class="card" style="width: 20rem;">
+            <div class="col-md-4 col-lg-4 col-sm-8  col-12 ">
+                <div class="card" style="width: 100%;">
                     <img src="teaching.jpg" class="card-img-top" height="250px" width="250px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Learn Computer </h5>
@@ -128,12 +131,12 @@
     <div class="container-fluid  div2">
         <div class="row justify-content-center ">
             <h1 class="text-center my-4">My Recently Projects</h1>
-            <p  class="text-center">Here is the detail of my recently projects</p>
+            <p class="text-center">Here is the detail of my recently projects</p>
         </div>
         <div class="row justify-content-center m-3 ">
-            <div class="col-md-3 col-lg-3 col-sm-7 col-7 gy-2">
-                <div class="card" style="width: 20rem;">
-                    <img src="burger.jpg" class="card-img-top" height="auto" width="auto" alt="...">
+            <div class="col-md-4 col-lg-4 col-sm-8  col-12  ">
+                <div class="card" style="width: 100%;">
+                    <img src="burger.jpg" class="card-img-top" height="auto" width="80%" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Burger Manu List</h5>
                         <p class="card-text">This is webpage containt burger menu list and many thing like detail of
@@ -143,9 +146,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-7 col-7 gy-2">
-                <div class="card" style="width: 20rem;">
-                    <img src="tropiko.jpg" class="card-img-top" height="auto" width="auto" alt="...">
+            <div class="col-md-4 col-lg-4 col-sm-8  col-12 ">
+                <div class="card" style="width: 100%;">
+                    <img src="tropiko.jpg" class="card-img-top" height="auto" width="80%" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Tropiko Webpage</h5>
                         <p class="card-text">This is webpage have information realted to a compnay which supply
@@ -157,9 +160,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-7 col-7 gy-2">
-                <div class="card" style="width: 20rem;">
-                    <img src="nordicrose.jpg" class="card-img-top" height="auto" width="auto" alt="...">
+            <div class="col-md-4 col-lg-4 col-sm-8  col-12  ">
+                <div class="card" style="width: 100%;">
+                    <img src="nordicrose.jpg" class="card-img-top" height="auto" width="80%" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Nordic Rose </h5>
                         <p class="card-text">This is Example webpage, using bootstrap,html,css
@@ -173,9 +176,9 @@
 
 
         <div class="row justify-content-center  ">
-            <div class="col-md-3 col-lg-3 col-sm-7 col-7 gy-2">
-                <div class="card" style="width: 20rem;">
-                    <img src="jscal.jpg" class="card-img-top" height="auto" width="auto" alt="...">
+            <div class="col-md-4 col-lg-4 col-sm-8  col-12 ">
+                <div class="card" style="width: 100%;">
+                    <img src="jscal.jpg" class="card-img-top" height="auto" width="80%" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">JavaScrip Calculator</h5>
                         <p class="card-text">This is webpage related to simple calculator which is made by using
@@ -185,9 +188,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-7 col-7 gy-2">
-                <div class="card" style="width: 20rem;">
-                    <img src="stopwatch.jpg" class="card-img-top" height="auto" width="auto" alt="...">
+            <div class="col-md-4 col-lg-4 col-sm-8  col-12  ">
+                <div class="card" style="width: 100%;">
+                    <img src="stopwatch.jpg" class="card-img-top" height="auto" width="80%" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Stop Watch</h5>
                         <p class="card-text">This is webpage made by using by using HTML,Css,bootstrap,JavaScript,
@@ -252,7 +255,7 @@
                     <p>Never let yourself down in your own eyes.</p>
                 </blockquote>
                 <figcaption class="blockquote-footer">
-                    Abdul Hanan 
+                    Abdul Hanan
                 </figcaption>
             </figure>
             <footer class="text-center">Copyright ©2022 All rights reserved | This portfolio website is made with by
@@ -261,6 +264,7 @@
         </div>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
